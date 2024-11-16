@@ -43,5 +43,8 @@
   "block.cratedelight.stacked_pumpkins": "Stacked Pumpkins",
   "block.cratedelight.cookie_bag": "Cookie Bag",
 
+  "block.cratedelight.stacked_oak_logs": "Stacked Oak Logs",
+  "block.cratedelight.stacked_stripped_oak_logs": "Stacked Stripped Oak Logs",
+
   "itemGroup.cratedelight": "Crate Delight"
 }

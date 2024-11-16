@@ -16,6 +16,12 @@ public class CreativeTabRegistry {
             .title(Component.translatable("itemGroup.cratedelight"))
             .icon(() -> ItemRegistry.BERRY_CRATE_ITEM.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
+
+                output.accept(BlockRegistry.STACKED_MELONS.get());
+                output.accept(BlockRegistry.STACKED_PUMPKINS.get());
+                output.accept(BlockRegistry.STACKED_OAK_LOGS.get());
+                output.accept(BlockRegistry.STACKED_STRIPPED_OAK_LOGS.get());
+
                 if (!ModList.get().isLoaded("farmersdelight")) {
                     output.accept(BlockRegistry.CARROT_CRATE.get());
                     output.accept(BlockRegistry.POTATO_CRATE.get());
@@ -77,8 +83,5 @@ public class CreativeTabRegistry {
                     output.accept(BlockRegistry.POWDERED_OBSIDIAN_BAG.get());
                     output.accept(BlockRegistry.CINDER_FLOUR_BAG.get());
                 }
-
-                output.accept(BlockRegistry.STACKED_MELONS.get());
-                output.accept(BlockRegistry.STACKED_PUMPKINS.get());
             }).build());
 }
