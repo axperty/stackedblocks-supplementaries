@@ -3,14 +3,14 @@
   "category": "misc",
   "pattern": [
     "###",
-    "#L#",
+    "#R#",
     "###"
   ],
   "key": {
     "#": {
       "item": "minecraft:pumpkin"
     },
-    "L": {
+    "R": {
       "item": "minecraft:lead"
     }
   },

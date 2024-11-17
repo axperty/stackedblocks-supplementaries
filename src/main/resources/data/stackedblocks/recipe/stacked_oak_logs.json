@@ -3,14 +3,14 @@
   "category": "misc",
   "pattern": [
     "###",
-    "#L#",
+    "#R#",
     "###"
   ],
   "key": {
     "#": {
       "item": "minecraft:oak_log"
     },
-    "L": {
+    "R": {
       "item": "minecraft:lead"
     }
   },

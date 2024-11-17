@@ -20,6 +20,9 @@ public class ItemRegistry {
     // Stacked Bricks Item
     public static final DeferredItem<BlockItem> STACKED_BRICKS_ITEM = ITEMS.registerSimpleBlockItem("stacked_bricks", BlockRegistry.STACKED_BRICKS);
 
+    // Stacked Organic Compost Item
+    public static final DeferredItem<BlockItem> STACKED_ORGANIC_COMPOST_ITEM = ITEMS.registerSimpleBlockItem("stacked_organic_compost", BlockRegistry.STACKED_ORGANIC_COMPOST);
+
     // Stacked Melons Item
     public static final DeferredItem<BlockItem> STACKED_MELONS_ITEM = ITEMS.registerSimpleBlockItem("stacked_melons", BlockRegistry.STACKED_MELONS);
 

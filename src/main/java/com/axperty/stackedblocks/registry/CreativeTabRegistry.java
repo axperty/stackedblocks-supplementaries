@@ -4,6 +4,7 @@ import com.axperty.stackedblocks.StackedBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.neoforged.fml.ModList;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -20,6 +21,11 @@ public class CreativeTabRegistry {
                 output.accept(BlockRegistry.STACKED_COBBLESTONE_BLOCKS.get());
                 output.accept(BlockRegistry.STACKED_NETHERRACK_BLOCKS.get());
                 output.accept(BlockRegistry.STACKED_BRICKS.get());
+
+                if (ModList.get().isLoaded("farmersdelight")) {
+                    output.accept(BlockRegistry.STACKED_ORGANIC_COMPOST.get());
+                }
+
                 output.accept(BlockRegistry.STACKED_MELONS.get());
                 output.accept(BlockRegistry.STACKED_PUMPKINS.get());
                 output.accept(BlockRegistry.STACKED_OAK_LOGS.get());
