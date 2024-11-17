@@ -1,27 +1,21 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "farmersdelight"
-    }
-  ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
     "###",
-    "#R#",
+    "#L#",
     "###"
   ],
   "key": {
     "#": {
       "item": "minecraft:pumpkin"
     },
-    "R": {
-      "item": "farmersdelight:rope"
+    "L": {
+      "item": "minecraft:lead"
     }
   },
   "result": {
     "count": 1,
-    "id": "stackedblocks:stacked_pumpkin"
+    "id": "stackedblocks:stacked_pumpkins"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "block.stackedblocks.stacked_melons": "Stacked Melons",
+  "block.stackedblocks.stacked_pumpkins": "Stacked Pumpkins",
+
+  "block.stackedblocks.stacked_acacia_logs": "Stacked Acacia Logs",
+  "block.stackedblocks.stacked_stripped_acacia_logs": "Stacked Stripped Acacia Logs",
+
+  "block.stackedblocks.stacked_oak_logs": "Stacked Oak Logs",
+  "block.stackedblocks.stacked_stripped_oak_logs": "Stacked Stripped Oak Logs",
+
+  "itemGroup.stackedblocks": "Stacked Blocks"
+}
