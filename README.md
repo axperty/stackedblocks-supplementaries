@@ -4,7 +4,8 @@
 [![Discord](https://img.shields.io/discord/1194733791818821663?style=flat&logo=discord&logoColor=%23FFFFFF&label=Discord&labelColor=2D2C2C&color=%234e992e)](https://discord.gg/e2BQx4bbsU)
 [![PayPal](https://img.shields.io/badge/Donate%20on%20PayPal-0079C1?style=flat&logo=paypal)](https://paypal.me/kevgelhorn)
 
-[Redacted]
+![Stacked Blocks](https://cdn.modrinth.com/data/UYrNpKJN/images/ac206c43c6eb8cf172ac5d3de1d1c3af8c45cc80.png)
+
 ***
 
 ### Overview
@@ -19,11 +20,33 @@ Your contributions to this project allows Stacked Blocks to be improved to deliv
 
 This mod adds blocks to the game that aim to decorate and save storage:
 
+- Stacked Stone Blocks
+- Stacked Cobblestone Blocks
+- Stacked Netherrack Blocks
+- Stacked Bricks
 - Stacked Melons
 - Stacked Pumpkins
-- Stacked Acacia Log
-- Stacked Oak Log
-- Stacked Stripped Acacia Log
-- Stacked Stripped Oak Log
+- Stacked Oak Logs
+- Stacked Stripped Oak Logs
+- Stacked Spruce Logs
+- Stacked Stripped Spruce Logs
+- Stacked Birch Logs
+- Stacked Stripped Birch Logs
+- Stacked Jungle Logs
+- Stacked Stripped Jungle Logs
+- Stacked Acacia Logs
+- Stacked Stripped Acacia Logs
+- Stacked Dark Oak Logs
+- Stacked Stripped Dark Oak Logs
+- Stacked Mangrove Logs
+- Stacked Stripped Mangrove Logs
+- Stacked Cherry Logs
+- Stacked Stripped Cherry Logs
+- Stacked Bamboo Blocks
+- Stacked Stripped Bamboo Blocks
+- Stacked Crimson Stems
+- Stacked Stripped Crimson Stems
+- Stacked Warped Stems
+- Stacked Stripped Warped Stems
 
 If you would like Stacked Blocks to have support for other mods, send your suggestions on [GitHub,](https://github.com/axperty/stackedblocks/issues/new) or you can also join the [Discord server.](https://discord.gg/yweZ2agkDw)
