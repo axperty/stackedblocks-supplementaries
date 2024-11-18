@@ -1,4 +1,4 @@
-![Stacked Blocks](https://cdn.modrinth.com/data/UYrNpKJN/images/00e31dfb6568e35481f8f53a078eaf982031a518.png)
+![Stacked Blocks](https://cdn.modrinth.com/data/UYrNpKJN/images/77fc81f6bd2210b79114a851218de5f4a7d50276.png)
 
 ***
 
