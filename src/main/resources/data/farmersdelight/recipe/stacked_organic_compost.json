@@ -14,7 +14,7 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bricks"
+      "item": "farmersdelight:organic_compost"
     },
     "R": {
       "item": "farmersdelight:rope"
@@ -22,6 +22,6 @@
   },
   "result": {
     "count": 1,
-    "id": "stackedblocks:stacked_bricks"
+    "id": "stackedblocks:stacked_organic_compost"
   }
 }
