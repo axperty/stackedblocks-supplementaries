@@ -1,10 +1,11 @@
-![Stacked Blocks](https://cdn.modrinth.com/data/UYrNpKJN/images/ac206c43c6eb8cf172ac5d3de1d1c3af8c45cc80.png)
+![Stacked Blocks](https://cdn.modrinth.com/data/UYrNpKJN/images/00e31dfb6568e35481f8f53a078eaf982031a518.png)
 
 ***
 
 ### ✨ What's New:
 
 - A whole new collection of stacked blocks for all logs, stripped logs, stone blocks, cobblestone blocks, netherrack blocks, and bricks.
+- By staking your blocks, you can save up to 8 times more storage space in your chests, barrels, or anywhere in your world.
 
 ***
 
