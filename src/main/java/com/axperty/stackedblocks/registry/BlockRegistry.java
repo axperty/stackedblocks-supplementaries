@@ -27,10 +27,6 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> STACKED_BRICKS = BLOCKS.registerSimpleBlock("stacked_bricks",
             BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS).mapColor(MapColor.WOOD));
 
-    // Stacked Organic Compost (Farmer's Delight)
-    public static final DeferredBlock<Block> STACKED_ORGANIC_COMPOST = BLOCKS.registerSimpleBlock("stacked_organic_compost",
-            BlockBehaviour.Properties.ofFullCopy(Blocks.DIRT).mapColor(MapColor.WOOD));
-
     // Stacked Melons
     public static final DeferredBlock<Block> STACKED_MELONS = BLOCKS.registerSimpleBlock("stacked_melons",
             BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
