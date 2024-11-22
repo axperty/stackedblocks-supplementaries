@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "stackedblocks:stacked_stone_blocks",
+    "stackedblocks:stacked_cobblestone_blocks",
+    "stackedblocks:stacked_netherrack_blocks",
+    "stackedblocks:stacked_bricks"
+  ]
+}
