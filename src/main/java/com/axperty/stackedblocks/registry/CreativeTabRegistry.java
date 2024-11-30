@@ -23,6 +23,15 @@ public class CreativeTabRegistry {
                 output.accept(BlockRegistry.STACKED_BRICKS.get());
                 output.accept(BlockRegistry.STACKED_MELONS.get());
                 output.accept(BlockRegistry.STACKED_PUMPKINS.get());
+                output.accept(BlockRegistry.STACKED_LAPIS_BLOCKS.get());
+                output.accept(BlockRegistry.STACKED_REDSTONE_BLOCKS.get());
+                output.accept(BlockRegistry.STACKED_COAL_BLOCKS.get());
+                output.accept(BlockRegistry.STACKED_IRON_BLOCKS.get());
+                output.accept(BlockRegistry.STACKED_GOLD_BLOCKS.get());
+                output.accept(BlockRegistry.STACKED_EMERALD_BLOCKS.get());
+                output.accept(BlockRegistry.STACKED_DIAMOND_BLOCKS.get());
+                output.accept(BlockRegistry.STACKED_NETHERITE_BLOCKS.get());
+                output.accept(BlockRegistry.STACKED_QUARTZ_BLOCKS.get());
                 output.accept(BlockRegistry.STACKED_OAK_LOGS.get());
                 output.accept(BlockRegistry.STACKED_STRIPPED_OAK_LOGS.get());
                 output.accept(BlockRegistry.STACKED_SPRUCE_LOGS.get());
