@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rich_soil": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:rich_soil"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stackedblocksfarmersdelight:stacked_rich_soil"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_rich_soil",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stackedblocksfarmersdelight:stacked_rich_soil"
+    ]
+  },
+  "sends_telemetry_event": false
+}
