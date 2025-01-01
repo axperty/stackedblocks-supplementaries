@@ -4,13 +4,13 @@
 [![Discord](https://img.shields.io/discord/1194733791818821663?style=flat&logo=discord&logoColor=%23FFFFFF&label=Discord&labelColor=2D2C2C&color=%234e992e)](https://discord.gg/e2BQx4bbsU)
 [![PayPal](https://img.shields.io/badge/Donate%20on%20PayPal-0079C1?style=flat&logo=paypal)](https://paypal.me/kevgelhorn)
 
-![Stacked Blocks: Farmer's Delight](https://cdn.modrinth.com/data/UYrNpKJN/images/28fbdff482a08cd94d0873f5bc26922efe5e5e11.png)
+![Stacked Blocks: Farmer's Delight](https://cdn.modrinth.com/data/LQlQFBH9/images/63094b4b88c4f5123af0bcd24ef4f741b1224ee5.png)
 
 ***
 
 ### Overview
 
-Stacked Blocks: Farmer's Delight is an add-on mod for Stacked Blocks that adds many compressed blocks to the game, letting the player save more storage.
+Stacked Blocks: Farmer's Delight is an add-on mod for Stacked Blocks that adds many compressed blocks to the game, letting the player save more storage while using rope.
 
 ### Contributing
 
