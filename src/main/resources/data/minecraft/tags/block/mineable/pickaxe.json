@@ -1,21 +1,14 @@
 {
   "replace": false,
   "values": [
-    "stackedblocksfarmersdelight:stacked_stone_blocks",
-    "stackedblocksfarmersdelight:stacked_cobblestone_blocks",
-    "stackedblocksfarmersdelight:stacked_netherrack_blocks",
-    "stackedblocksfarmersdelight:stacked_bricks",
-    "stackedblocksfarmersdelight:stacked_lapis_blocks",
-    "stackedblocksfarmersdelight:stacked_redstone_blocks",
-    "stackedblocksfarmersdelight:stacked_coal_blocks",
-    "stackedblocksfarmersdelight:stacked_iron_blocks",
-    "stackedblocksfarmersdelight:stacked_gold_blocks",
-    "stackedblocksfarmersdelight:stacked_emerald_blocks",
-    "stackedblocksfarmersdelight:stacked_diamond_blocks",
-    "stackedblocksfarmersdelight:stacked_netherite_blocks",
-    "stackedblocksfarmersdelight:stacked_quartz_blocks",
-    "stackedblocksfarmersdelight:stacked_raw_iron_blocks",
-    "stackedblocksfarmersdelight:stacked_raw_gold_blocks",
-    "stackedblocksfarmersdelight:stacked_raw_copper_blocks"
+    "stackedblockssupplementaries:stacked_ash_bricks",
+    "stackedblockssupplementaries:stacked_blackstone_tiles",
+    "stackedblockssupplementaries:stacked_checker_blocks",
+    "stackedblockssupplementaries:stacked_daub",
+    "stackedblockssupplementaries:stacked_flint_blocks",
+    "stackedblockssupplementaries:stacked_gravel_bricks",
+    "stackedblockssupplementaries:stacked_lapis_bricks",
+    "stackedblockssupplementaries:stacked_soap_blocks",
+    "stackedblockssupplementaries:stacked_stone_tiles"
   ]
 }

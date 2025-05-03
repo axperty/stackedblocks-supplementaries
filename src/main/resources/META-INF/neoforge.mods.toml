@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
-issueTrackerURL = "https://github.com/axperty/stackedblocks-farmersdelight/issues"
+issueTrackerURL = "https://github.com/axperty/stackedblocks-supplementaries/issues"
 license="${mod_license}"
 
 [[mods]]
@@ -11,7 +11,7 @@ displayURL = "https://www.curseforge.com/members/axperty/projects"
 logoFile="logo.png"
 logoBlur = false
 authors="${mod_authors}"
-description="A mod that adds compatibility between Stacked Blocks and Farmer's Delight."
+description="A mod that adds compatibility between Stacked Blocks and Supplementaries."
 
 [[dependencies.${mod_id}]]
     modId="neoforge"
@@ -35,7 +35,7 @@ description="A mod that adds compatibility between Stacked Blocks and Farmer's D
     side="BOTH"
 
 [[dependencies.${mod_id}]]
-    modId="farmersdelight"
+    modId="supplementaries"
     type="required"
     versionRange="[0,)"
     ordering="NONE"

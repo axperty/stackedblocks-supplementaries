@@ -61,7 +61,8 @@ configurations {
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
     implementation "curse.maven:stacked-blocks-1144737:5972703"
-    implementation "curse.maven:farmers-delight-398521:5566383"
+    implementation "curse.maven:supplementaries-412082:6462647"
+    implementation "curse.maven:selene-499980:6462396"
 }
 
 tasks.withType(ProcessResources).configureEach {

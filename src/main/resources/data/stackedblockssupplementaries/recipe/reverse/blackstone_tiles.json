@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stackedblockssupplementaries:stacked_blackstone_tiles"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "supplementaries:blackstone_tile"
+  }
+}
