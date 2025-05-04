@@ -17,19 +17,19 @@ public class BlockRegistry {
 
     // Stacked Stone Tiles
     public static final Block STACKED_STONE_TILES = registerBlock("stacked_stone_tiles",
-            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).mapColor(MapColor.OAK_TAN))); // Note: MapColor.WOOD -> MapColor.OAK_TAN
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).mapColor(MapColor.OAK_TAN)));
 
     // Stacked Gravel Bricks
     public static final Block STACKED_GRAVEL_BRICKS = registerBlock("stacked_gravel_bricks",
-            new Block(AbstractBlock.Settings.copy(Blocks.GRAVEL).mapColor(MapColor.OAK_TAN).sounds(BlockSoundGroup.STONE))); // Note: MapColor.WOOD -> MapColor.OAK_TAN
+            new Block(AbstractBlock.Settings.copy(Blocks.GRAVEL).mapColor(MapColor.OAK_TAN).sounds(BlockSoundGroup.STONE)));
 
     // Stacked Ash Bricks
     public static final Block STACKED_ASH_BRICKS = registerBlock("stacked_ash_bricks",
-            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).mapColor(MapColor.OAK_TAN))); // Note: MapColor.WOOD -> MapColor.OAK_TAN
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS).mapColor(MapColor.OAK_TAN)));
 
     // Stacked Lapis Bricks
     public static final Block STACKED_LAPIS_BRICKS = registerBlock("stacked_lapis_bricks",
-            new Block(AbstractBlock.Settings.copy(Blocks.LAPIS_BLOCK).mapColor(MapColor.OAK_TAN).sounds(BlockSoundGroup.DEEPSLATE_TILES))); // Note: MapColor.WOOD -> MapColor.OAK_TAN
+            new Block(AbstractBlock.Settings.copy(Blocks.LAPIS_BLOCK).mapColor(MapColor.OAK_TAN).sounds(BlockSoundGroup.DEEPSLATE_TILES)));
 
     // Stacked Soap Blocks
     public static final Block STACKED_SOAP_BLOCKS = registerBlock("stacked_soap_blocks",
@@ -44,15 +44,15 @@ public class BlockRegistry {
 
     // Stacked Blackstone Tiles
     public static final Block STACKED_BLACKSTONE_TILES = registerBlock("stacked_blackstone_tiles",
-            new Block(AbstractBlock.Settings.copy(Blocks.BLACKSTONE).mapColor(MapColor.OAK_TAN))); // Note: MapColor.WOOD -> MapColor.OAK_TAN
+            new Block(AbstractBlock.Settings.copy(Blocks.BLACKSTONE).mapColor(MapColor.OAK_TAN)));
 
     // Stacked Checker Blocks
     public static final Block STACKED_CHECKER_BLOCKS = registerBlock("stacked_checker_blocks",
-            new Block(AbstractBlock.Settings.copy(Blocks.STONE).mapColor(MapColor.OAK_TAN))); // Note: MapColor.WOOD -> MapColor.OAK_TAN
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE).mapColor(MapColor.OAK_TAN)));
 
     // Stacked Fine Wood
     public static final Block STACKED_FINE_WOOD = registerBlock("stacked_fine_wood",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).mapColor(MapColor.OAK_TAN))); // Note: MapColor.WOOD -> MapColor.OAK_TAN
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).mapColor(MapColor.OAK_TAN)));
 
     // Stacked Daub
     public static final Block STACKED_DAUB = registerBlock("stacked_daub",
