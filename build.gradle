@@ -1,111 +1,77 @@
 plugins {
-    id 'java-library'
-    id 'eclipse'
-    id 'idea'
+    id 'fabric-loom' version '1.10-SNAPSHOT'
     id 'maven-publish'
-    id 'net.neoforged.gradle.userdev' version '7.0.145'
 }
 
-tasks.named('wrapper', Wrapper).configure {
-    distributionType = Wrapper.DistributionType.BIN
-}
+version = project.mod_version
+group = project.maven_group
 
-version = mod_version
-group = mod_group_id
+base {
+    archivesName = project.archives_base_name
+}
 
 repositories {
-    mavenLocal()
     maven {
         url "https://cursemaven.com"
     }
 }
 
-base {
-    archivesName = mod_id
-}
+loom {
+    splitEnvironmentSourceSets()
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(21)
-runs {
-    configureEach {
-        systemProperty 'forge.logging.markers', 'REGISTRIES'
-
-        systemProperty 'forge.logging.console.level', 'debug'
-
-        modSource project.sourceSets.main
+    mods {
+        "modid" {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
     }
 
-    client {
-        systemProperty 'forge.enabledGameTestNamespaces', project.mod_id
-    }
-
-    server {
-        systemProperty 'forge.enabledGameTestNamespaces', project.mod_id
-        programArgument '--nogui'
-    }
-
-    gameTestServer {
-        systemProperty 'forge.enabledGameTestNamespaces', project.mod_id
-    }
-
-    data {
-        programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
-    }
-}
-
-sourceSets.main.resources { srcDir 'src/generated/resources' }
-
-configurations {
-    runtimeClasspath.extendsFrom localRuntime
 }
 
 dependencies {
-    implementation "net.neoforged:neoforge:${neo_version}"
-    implementation "curse.maven:stacked-blocks-1144737:5972703"
-    implementation "curse.maven:supplementaries-412082:6462647"
-    implementation "curse.maven:selene-499980:6462396"
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    modImplementation "curse.maven:stacked-blocks-1144737:5972695"
+    modImplementation "curse.maven:supplementaries-412082:6462648"
+    modImplementation "curse.maven:selene-499980:6462398"
 }
 
-tasks.withType(ProcessResources).configureEach {
-    var replaceProperties = [
-            minecraft_version      : minecraft_version,
-            minecraft_version_range: minecraft_version_range,
-            neo_version            : neo_version,
-            neo_version_range      : neo_version_range,
-            loader_version_range   : loader_version_range,
-            mod_id                 : mod_id,
-            mod_name               : mod_name,
-            mod_license            : mod_license,
-            mod_version            : mod_version,
-            mod_authors            : mod_authors,
-            mod_description        : mod_description
-    ]
-    inputs.properties replaceProperties
+processResources {
+    inputs.property "version", project.version
 
-    filesMatching(['META-INF/neoforge.mods.toml']) {
-        expand replaceProperties
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 21
+}
+
+java {
+    withSourcesJar()
+
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+jar {
+    from("LICENSE") {
+        rename { "${it}_${project.base.archivesName.get()}"}
     }
 }
 
 publishing {
     publications {
-        register('mavenJava', MavenPublication) {
+        create("mavenJava", MavenPublication) {
+            artifactId = project.archives_base_name
             from components.java
         }
     }
+
     repositories {
-        maven {
-            url "file://${project.projectDir}/repo"
-        }
-    }
-}
 
-tasks.withType(JavaCompile).configureEach {
-    options.encoding = 'UTF-8'
-}
-
-idea {
-    module {
-        downloadSources = true
-        downloadJavadoc = true
     }
 }
