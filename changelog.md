@@ -1,4 +1,4 @@
-![Stacked Blocks](https://i.imgur.com/AT18kw7.png)
+![Stacked Blocks](https://i.imgur.com/dL7bDOD.png)
 
 ***
 

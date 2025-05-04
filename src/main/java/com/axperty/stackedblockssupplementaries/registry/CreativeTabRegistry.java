@@ -13,7 +13,7 @@ public class CreativeTabRegistry {
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> STACKEDBLOCKSSUPPLEMENTARIES_TAB = CREATIVE_MODE_TABS.register("stackedblockssupplementaries_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.stackedblockssupplementaries"))
-            .icon(() -> ItemRegistry.STACKED_STONE_TILES_ITEM.get().getDefaultInstance())
+            .icon(() -> ItemRegistry.STACKED_FINE_WOOD_ITEM.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
 
                 output.accept(BlockRegistry.STACKED_STONE_TILES.get());
