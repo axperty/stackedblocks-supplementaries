@@ -11,6 +11,7 @@ base {
 }
 
 repositories {
+    mavenLocal()
     maven {
         url "https://cursemaven.com"
     }
@@ -33,16 +34,16 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-    modImplementation "curse.maven:stacked-blocks-1144737:5972695"
-    modImplementation "curse.maven:supplementaries-412082:6462648"
-    modImplementation "curse.maven:selene-499980:6462398"
+    modImplementation "curse.maven:stacked-blocks-1144737:6189779"
+    modImplementation "curse.maven:supplementaries-412082:6463027"
+    modImplementation "curse.maven:selene-499980:6474667"
 }
 
 processResources {
     inputs.property "version", project.version
 
     filesMatching("fabric.mod.json") {
-        expand "version": project.version
+        expand "version": inputs.properties.version
     }
 }
 
@@ -51,6 +52,9 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 java {
+    // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
+    // if it is present.
+    // If you remove this line, sources will not be generated.
     withSourcesJar()
 
     sourceCompatibility = JavaVersion.VERSION_21
@@ -58,11 +62,14 @@ java {
 }
 
 jar {
+    inputs.property "archivesName", project.base.archivesName
+
     from("LICENSE") {
-        rename { "${it}_${project.base.archivesName.get()}"}
+        rename { "${it}_${inputs.properties.archivesName}"}
     }
 }
 
+// configure the maven publication
 publishing {
     publications {
         create("mavenJava", MavenPublication) {
@@ -71,7 +78,11 @@ publishing {
         }
     }
 
+    // See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
     repositories {
-
+        // Add repositories to publish to here.
+        // Notice: This block does NOT have the same function as the block in the top level.
+        // The repositories here will be used for publishing your artifact, not for
+        // retrieving dependencies.
     }
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stackedblockssupplementaries:stacked_daub"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "supplementaries:daub"
+  }
+}

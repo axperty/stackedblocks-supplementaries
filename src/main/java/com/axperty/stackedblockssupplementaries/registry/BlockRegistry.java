@@ -3,7 +3,7 @@ package com.axperty.stackedblockssupplementaries.registry;
 import com.axperty.stackedblockssupplementaries.StackedBlocksSupplementaries;
 import net.mehvahdjukaar.moonlight.api.misc.ModSoundType;
 import net.minecraft.block.*;
-import net.minecraft.block.enums.NoteBlockInstrument;
+//import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -35,7 +35,7 @@ public class BlockRegistry {
     public static final Block STACKED_SOAP_BLOCKS = registerBlock("stacked_soap_blocks",
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)
                     .slipperiness(0.94f)
-                    .instrument(NoteBlockInstrument.DIDGERIDOO)
+                    //.instrument(NoteBlock.INSTRUMENT)
                     .mapColor(DyeColor.PINK)
                     .pistonBehavior(PistonBehavior.PUSH_ONLY)
                     .strength(1.25F, 4.0F)
