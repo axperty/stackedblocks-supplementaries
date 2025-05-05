@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "stacked_fodder",
+  "pattern": [
+    "###",
+    "#L#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "supplementaries:fodder"
+    },
+    "L": {
+      "item": "supplementaries:rope"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "stackedblockssupplementaries:stacked_fodder_rope"
+  }
+}

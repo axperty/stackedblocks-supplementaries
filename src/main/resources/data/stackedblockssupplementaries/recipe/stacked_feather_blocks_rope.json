@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "stacked_feather_blocks",
+  "pattern": [
+    "###",
+    "#L#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "supplementaries:feather_block"
+    },
+    "L": {
+      "item": "supplementaries:rope"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "stackedblockssupplementaries:stacked_feather_blocks_rope"
+  }
+}

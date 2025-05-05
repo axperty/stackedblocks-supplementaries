@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "stacked_blackstone_tiles",
+  "pattern": [
+    "###",
+    "#L#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "supplementaries:blackstone_tile"
+    },
+    "L": {
+      "item": "supplementaries:rope"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "stackedblockssupplementaries:stacked_blackstone_tiles_rope"
+  }
+}

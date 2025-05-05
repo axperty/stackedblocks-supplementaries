@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "stacked_daub",
+  "pattern": [
+    "###",
+    "#L#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "supplementaries:daub"
+    },
+    "L": {
+      "item": "supplementaries:rope"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "stackedblockssupplementaries:stacked_daub_rope"
+  }
+}

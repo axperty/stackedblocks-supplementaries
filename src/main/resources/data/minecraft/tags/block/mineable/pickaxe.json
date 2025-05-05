@@ -2,13 +2,22 @@
   "replace": false,
   "values": [
     "stackedblockssupplementaries:stacked_ash_bricks",
+    "stackedblockssupplementaries:stacked_ash_bricks_rope",
     "stackedblockssupplementaries:stacked_blackstone_tiles",
+    "stackedblockssupplementaries:stacked_blackstone_tiles_rope",
     "stackedblockssupplementaries:stacked_checker_blocks",
+    "stackedblockssupplementaries:stacked_checker_blocks_rope",
     "stackedblockssupplementaries:stacked_daub",
+    "stackedblockssupplementaries:stacked_daub_rope",
     "stackedblockssupplementaries:stacked_flint_blocks",
+    "stackedblockssupplementaries:stacked_flint_blocks_rope",
     "stackedblockssupplementaries:stacked_gravel_bricks",
+    "stackedblockssupplementaries:stacked_gravel_bricks_rope",
     "stackedblockssupplementaries:stacked_lapis_bricks",
+    "stackedblockssupplementaries:stacked_lapis_bricks_rope",
     "stackedblockssupplementaries:stacked_soap_blocks",
-    "stackedblockssupplementaries:stacked_stone_tiles"
+    "stackedblockssupplementaries:stacked_soap_blocks_rope",
+    "stackedblockssupplementaries:stacked_stone_tiles",
+    "stackedblockssupplementaries:stacked_stone_tiles_rope"
   ]
 }

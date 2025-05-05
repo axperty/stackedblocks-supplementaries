@@ -17,17 +17,41 @@ public class CreativeTabRegistry {
             .displayItems((parameters, output) -> {
 
                 output.accept(BlockRegistry.STACKED_STONE_TILES.get());
+                output.accept(BlockRegistry.STACKED_STONE_TILES_ROPE.get());
+
                 output.accept(BlockRegistry.STACKED_GRAVEL_BRICKS.get());
+                output.accept(BlockRegistry.STACKED_GRAVEL_BRICKS_ROPE.get());
+
                 output.accept(BlockRegistry.STACKED_ASH_BRICKS.get());
+                output.accept(BlockRegistry.STACKED_ASH_BRICKS_ROPE.get());
+
                 output.accept(BlockRegistry.STACKED_LAPIS_BRICKS.get());
+                output.accept(BlockRegistry.STACKED_LAPIS_BRICKS_ROPE.get());
+
                 output.accept(BlockRegistry.STACKED_SOAP_BLOCKS.get());
+                output.accept(BlockRegistry.STACKED_SOAP_BLOCKS_ROPE.get());
+
                 output.accept(BlockRegistry.STACKED_BLACKSTONE_TILES.get());
+                output.accept(BlockRegistry.STACKED_BLACKSTONE_TILES_ROPE.get());
+
                 output.accept(BlockRegistry.STACKED_CHECKER_BLOCKS.get());
+                output.accept(BlockRegistry.STACKED_CHECKER_BLOCKS_ROPE.get());
+
                 output.accept(BlockRegistry.STACKED_FINE_WOOD.get());
+                output.accept(BlockRegistry.STACKED_FINE_WOOD_ROPE.get());
+
                 output.accept(BlockRegistry.STACKED_DAUB.get());
+                output.accept(BlockRegistry.STACKED_DAUB_ROPE.get());
+
                 output.accept(BlockRegistry.STACKED_FEATHER_BLOCKS.get());
+                output.accept(BlockRegistry.STACKED_FEATHER_BLOCKS_ROPE.get());
+
                 output.accept(BlockRegistry.STACKED_FODDER.get());
+                output.accept(BlockRegistry.STACKED_FODDER_ROPE.get());
+
                 output.accept(BlockRegistry.STACKED_FLINT_BLOCKS.get());
+                output.accept(BlockRegistry.STACKED_FLINT_BLOCKS_ROPE.get());
+
 
 
             }).build());

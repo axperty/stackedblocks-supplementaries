@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stackedblockssupplementaries:stacked_checker_blocks_rope"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "supplementaries:checker_block"
+  }
+}
