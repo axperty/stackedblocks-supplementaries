@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "stackedblockssupplementaries",
-  "version": "25.05.04-1.21-fabric",
+  "version": "25.05.06-1.21-fabric",
   "name": "Stacked Blocks: Supplementaries",
   "description": "A mod that adds compatibility between Stacked Blocks and Supplementaries.",
   "authors": [

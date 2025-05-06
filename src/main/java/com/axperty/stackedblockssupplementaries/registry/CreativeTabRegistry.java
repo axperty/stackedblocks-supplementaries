@@ -18,17 +18,29 @@ public class CreativeTabRegistry {
                     .entries((displayContext, entries) -> {
 
                         entries.add(BlockRegistry.STACKED_STONE_TILES);
+                        entries.add(BlockRegistry.STACKED_STONE_TILES_ROPE);
                         entries.add(BlockRegistry.STACKED_GRAVEL_BRICKS);
+                        entries.add(BlockRegistry.STACKED_GRAVEL_BRICKS_ROPE);
                         entries.add(BlockRegistry.STACKED_ASH_BRICKS);
+                        entries.add(BlockRegistry.STACKED_ASH_BRICKS_ROPE);
                         entries.add(BlockRegistry.STACKED_LAPIS_BRICKS);
+                        entries.add(BlockRegistry.STACKED_LAPIS_BRICKS_ROPE);
                         entries.add(BlockRegistry.STACKED_SOAP_BLOCKS);
+                        entries.add(BlockRegistry.STACKED_SOAP_BLOCKS_ROPE);
                         entries.add(BlockRegistry.STACKED_BLACKSTONE_TILES);
+                        entries.add(BlockRegistry.STACKED_BLACKSTONE_TILES_ROPE);
                         entries.add(BlockRegistry.STACKED_CHECKER_BLOCKS);
+                        entries.add(BlockRegistry.STACKED_CHECKER_BLOCKS_ROPE);
                         entries.add(BlockRegistry.STACKED_FINE_WOOD);
+                        entries.add(BlockRegistry.STACKED_FINE_WOOD_ROPE);
                         entries.add(BlockRegistry.STACKED_DAUB);
+                        entries.add(BlockRegistry.STACKED_DAUB_ROPE);
                         entries.add(BlockRegistry.STACKED_FEATHER_BLOCKS);
+                        entries.add(BlockRegistry.STACKED_FEATHER_BLOCKS_ROPE);
                         entries.add(BlockRegistry.STACKED_FODDER);
+                        entries.add(BlockRegistry.STACKED_FODDER_ROPE);
                         entries.add(BlockRegistry.STACKED_FLINT_BLOCKS);
+                        entries.add(BlockRegistry.STACKED_FLINT_BLOCKS_ROPE);
                     })
                     .build());
 
