@@ -17,41 +17,81 @@ public class ItemRegistry {
     public static final RegistryObject<Item> STACKED_STONE_TILES_ITEM = ITEMS.register("stacked_stone_tiles",
             () -> new BlockItem(BlockRegistry.STACKED_STONE_TILES.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
 
+    // Stacked Stone Tiles (Rope)
+    public static final RegistryObject<Item> STACKED_STONE_TILES_ROPE_ITEM = ITEMS.register("stacked_stone_tiles_rope",
+            () -> new BlockItem(BlockRegistry.STACKED_STONE_TILES_ROPE.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
+
     // Stacked Ash Bricks
     public static final RegistryObject<Item> STACKED_ASH_BRICKS_ITEM = ITEMS.register("stacked_ash_bricks",
             () -> new BlockItem(BlockRegistry.STACKED_ASH_BRICKS.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
+
+    // Stacked Ash Bricks (Rope)
+    public static final RegistryObject<Item> STACKED_ASH_BRICKS_ROPE_ITEM = ITEMS.register("stacked_ash_bricks_rope",
+            () -> new BlockItem(BlockRegistry.STACKED_ASH_BRICKS_ROPE.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
 
     // Stacked Lapis Bricks
     public static final RegistryObject<Item> STACKED_LAPIS_BRICKS_ITEM = ITEMS.register("stacked_lapis_bricks",
             () -> new BlockItem(BlockRegistry.STACKED_LAPIS_BRICKS.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
 
+    // Stacked Lapis Bricks (Rope)
+    public static final RegistryObject<Item> STACKED_LAPIS_BRICKS_ROPE_ITEM = ITEMS.register("stacked_lapis_bricks_rope",
+            () -> new BlockItem(BlockRegistry.STACKED_LAPIS_BRICKS_ROPE.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
+
     // Stacked Soap Blocks
     public static final RegistryObject<Item> STACKED_SOAP_BLOCKS_ITEM = ITEMS.register("stacked_soap_blocks",
             () -> new BlockItem(BlockRegistry.STACKED_SOAP_BLOCKS.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
+
+    // Stacked Soap Blocks (Rope)
+    public static final RegistryObject<Item> STACKED_SOAP_BLOCKS_ROPE_ITEM = ITEMS.register("stacked_soap_blocks_rope",
+            () -> new BlockItem(BlockRegistry.STACKED_SOAP_BLOCKS_ROPE.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
 
     // Stacked Blackstone Tiles
     public static final RegistryObject<Item> STACKED_BLACKSTONE_TILES_ITEM = ITEMS.register("stacked_blackstone_tiles",
             () -> new BlockItem(BlockRegistry.STACKED_BLACKSTONE_TILES.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
 
+    // Stacked Blackstone Tiles (Rope)
+    public static final RegistryObject<Item> STACKED_BLACKSTONE_TILES_ROPE_ITEM = ITEMS.register("stacked_blackstone_tiles_rope",
+            () -> new BlockItem(BlockRegistry.STACKED_BLACKSTONE_TILES_ROPE.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
+
     // Stacked Checker Blocks
     public static final RegistryObject<Item> STACKED_CHECKER_BLOCKS_ITEM = ITEMS.register("stacked_checker_blocks",
             () -> new BlockItem(BlockRegistry.STACKED_CHECKER_BLOCKS.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
+
+    // Stacked Checker Blocks (Rope)
+    public static final RegistryObject<Item> STACKED_CHECKER_BLOCKS_ROPE_ITEM = ITEMS.register("stacked_checker_blocks_rope",
+            () -> new BlockItem(BlockRegistry.STACKED_CHECKER_BLOCKS_ROPE.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
 
     // Stacked Daub
     public static final RegistryObject<Item> STACKED_DAUB_ITEM = ITEMS.register("stacked_daub",
             () -> new BlockItem(BlockRegistry.STACKED_DAUB.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
 
+    // Stacked Daub (Rope)
+    public static final RegistryObject<Item> STACKED_DAUB_ROPE_ITEM = ITEMS.register("stacked_daub_rope",
+            () -> new BlockItem(BlockRegistry.STACKED_DAUB_ROPE.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
+
     // Stacked Feather Blocks
     public static final RegistryObject<Item> STACKED_FEATHER_BLOCKS_ITEM = ITEMS.register("stacked_feather_blocks",
             () -> new BlockItem(BlockRegistry.STACKED_FEATHER_BLOCKS.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
+
+    // Stacked Feather Blocks (Rope)
+    public static final RegistryObject<Item> STACKED_FEATHER_BLOCKS_ROPE_ITEM = ITEMS.register("stacked_feather_blocks_rope",
+            () -> new BlockItem(BlockRegistry.STACKED_FEATHER_BLOCKS_ROPE.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
 
     // Stacked Fodder
     public static final RegistryObject<Item> STACKED_FODDER_ITEM = ITEMS.register("stacked_fodder",
             () -> new BlockItem(BlockRegistry.STACKED_FODDER.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
 
+    // Stacked Fodder (Rope)
+    public static final RegistryObject<Item> STACKED_FODDER_ROPE_ITEM = ITEMS.register("stacked_fodder_rope",
+            () -> new BlockItem(BlockRegistry.STACKED_FODDER_ROPE.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
+
     // Stacked Flint Blocks
     public static final RegistryObject<Item> STACKED_FLINT_BLOCKS_ITEM = ITEMS.register("stacked_flint_blocks",
             () -> new BlockItem(BlockRegistry.STACKED_FLINT_BLOCKS.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
+
+    // Stacked Flint Blocks (Rope)
+    public static final RegistryObject<Item> STACKED_FLINT_BLOCKS_ROPE_ITEM = ITEMS.register("stacked_flint_blocks_rope",
+            () -> new BlockItem(BlockRegistry.STACKED_FLINT_BLOCKS_ROPE.get(), new Item.Properties().tab(StackedBlocksSupplementaries.ITEM_GROUP)));
 
     private static Item.Properties addToTabIfLoaded(Item.Properties properties, String modId) {
         return ModList.get().isLoaded(modId) ? properties.tab(StackedBlocksSupplementaries.ITEM_GROUP) : properties;

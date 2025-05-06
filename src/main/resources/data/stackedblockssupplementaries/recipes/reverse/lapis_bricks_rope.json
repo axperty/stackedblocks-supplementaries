@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stackedblockssupplementaries:stacked_lapis_bricks_rope"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "supplementaries:lapis_bricks"
+  }
+}

@@ -1,16 +1,39 @@
 {
   "block.stackedblockssupplementaries.stacked_ash_bricks": "Ladrillos de ceniza apilados",
+  "block.stackedblockssupplementaries.stacked_ash_bricks_rope": "Ladrillos de ceniza apilados",
+
   "block.stackedblockssupplementaries.stacked_blackstone_tiles": "Losetas de piedra negra apiladas",
+  "block.stackedblockssupplementaries.stacked_blackstone_tiles_rope": "Losetas de piedra negra apiladas",
+
   "block.stackedblockssupplementaries.stacked_checker_blocks": "Bloques ajedrezados apilados",
+  "block.stackedblockssupplementaries.stacked_checker_blocks_rope": "Bloques ajedrezados apilados",
+
   "block.stackedblockssupplementaries.stacked_daub": "Quincha apilada",
+  "block.stackedblockssupplementaries.stacked_daub_rope": "Quincha apilada",
+
   "block.stackedblockssupplementaries.stacked_feather_blocks": "Bloques de plumas apilados",
+  "block.stackedblockssupplementaries.stacked_feather_blocks_rope": "Bloques de plumas apilados",
+
   "block.stackedblockssupplementaries.stacked_fine_wood": "Madera fina apilada",
+  "block.stackedblockssupplementaries.stacked_fine_wood_rope": "Madera fina apilada",
+
   "block.stackedblockssupplementaries.stacked_flint_blocks": "Bloques de pedernal apilados",
+  "block.stackedblockssupplementaries.stacked_flint_blocks_rope": "Bloques de pedernal apilados",
+
   "block.stackedblockssupplementaries.stacked_fodder": "Forraje apilado",
+  "block.stackedblockssupplementaries.stacked_fodder_rope": "Forraje apilado",
+
   "block.stackedblockssupplementaries.stacked_gravel_bricks": "Ladrillos de grava apilados",
+  "block.stackedblockssupplementaries.stacked_gravel_bricks_rope": "Ladrillos de grava apilados",
+
   "block.stackedblockssupplementaries.stacked_lapis_bricks": "Ladrillos de lapislázuli apilados",
+  "block.stackedblockssupplementaries.stacked_lapis_bricks_rope": "Ladrillos de lapislázuli apilados",
+
   "block.stackedblockssupplementaries.stacked_soap_blocks": "Bloques de jabón apilados",
+  "block.stackedblockssupplementaries.stacked_soap_blocks_rope": "Bloques de jabón apilados",
+
   "block.stackedblockssupplementaries.stacked_stone_tiles": "Losetas de piedra apiladas",
+  "block.stackedblockssupplementaries.stacked_stone_tiles_rope": "Losetas de piedra apiladas",
 
   "itemGroup.stackedblockssupplementaries": "Stacked Blocks: Supplementaries"
 }

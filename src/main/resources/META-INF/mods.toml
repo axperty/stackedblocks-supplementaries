@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]]
 modId="stackedblockssupplementaries"
-version="25.05.04-1.19-forge"
+version="25.05.06-1.19-forge"
 displayName="Stacked Blocks: Supplementaries"
 authors="Axperty"
 description="A mod that adds compatibility between Stacked Blocks and Supplementaries."

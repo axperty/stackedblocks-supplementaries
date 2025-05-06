@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stackedblockssupplementaries:stacked_feather_blocks_rope"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "supplementaries:feather_block"
+  }
+}
