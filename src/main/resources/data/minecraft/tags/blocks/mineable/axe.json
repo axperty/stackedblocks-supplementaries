@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "stackedblockssupplementaries:stacked_fine_wood"
+    "stackedblockssupplementaries:stacked_fine_wood",
+    "stackedblockssupplementaries:stacked_fine_wood_rope"
   ]
 }
