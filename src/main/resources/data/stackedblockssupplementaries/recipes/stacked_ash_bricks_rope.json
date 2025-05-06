@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "stacked_ash_bricks",
+  "pattern": [
+    "###",
+    "#L#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "supplementaries:ash_bricks"
+    },
+    "L": {
+      "item": "supplementaries:rope"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "stackedblockssupplementaries:stacked_ash_bricks_rope"
+  }
+}
