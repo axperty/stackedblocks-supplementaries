@@ -19,17 +19,40 @@ public class CreativeTabRegistry {
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(BlockRegistry.STACKED_STONE_TILES.get());
+                        pOutput.accept(BlockRegistry.STACKED_STONE_TILES_ROPE.get());
+
                         pOutput.accept(BlockRegistry.STACKED_GRAVEL_BRICKS.get());
+                        pOutput.accept(BlockRegistry.STACKED_GRAVEL_BRICKS_ROPE.get());
+
                         pOutput.accept(BlockRegistry.STACKED_ASH_BRICKS.get());
+                        pOutput.accept(BlockRegistry.STACKED_ASH_BRICKS_ROPE.get());
+
                         pOutput.accept(BlockRegistry.STACKED_LAPIS_BRICKS.get());
+                        pOutput.accept(BlockRegistry.STACKED_LAPIS_BRICKS_ROPE.get());
+
                         pOutput.accept(BlockRegistry.STACKED_SOAP_BLOCKS.get());
+                        pOutput.accept(BlockRegistry.STACKED_SOAP_BLOCKS_ROPE.get());
+
                         pOutput.accept(BlockRegistry.STACKED_BLACKSTONE_TILES.get());
+                        pOutput.accept(BlockRegistry.STACKED_BLACKSTONE_TILES_ROPE.get());
+
                         pOutput.accept(BlockRegistry.STACKED_CHECKER_BLOCKS.get());
+                        pOutput.accept(BlockRegistry.STACKED_CHECKER_BLOCKS_ROPE.get());
+
                         pOutput.accept(BlockRegistry.STACKED_FINE_WOOD.get());
+                        pOutput.accept(BlockRegistry.STACKED_FINE_WOOD_ROPE.get());
+
                         pOutput.accept(BlockRegistry.STACKED_DAUB.get());
+                        pOutput.accept(BlockRegistry.STACKED_DAUB_ROPE.get());
+
                         pOutput.accept(BlockRegistry.STACKED_FEATHER_BLOCKS.get());
+                        pOutput.accept(BlockRegistry.STACKED_FEATHER_BLOCKS_ROPE.get());
+
                         pOutput.accept(BlockRegistry.STACKED_FODDER.get());
+                        pOutput.accept(BlockRegistry.STACKED_FODDER_ROPE.get());
+
                         pOutput.accept(BlockRegistry.STACKED_FLINT_BLOCKS.get());
+                        pOutput.accept(BlockRegistry.STACKED_FLINT_BLOCKS_ROPE.get());
                     })
                     .build());
 
